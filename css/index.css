@@ -1,0 +1,263 @@
+.section {
+  background-color: #F8F8F8;
+}
+.section__decor {
+  display: inline-flex
+}
+
+.section__title {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.6px;
+}
+
+.section__element {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 24px;
+}
+.section__element--second,
+.section__element--third {
+display: none;
+}
+.section__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #7E7E82;
+  margin: 24px 16px;
+  min-width: 1120px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding: 4px 0 8px;
+    scroll-snap-type: x mandatory;
+}
+
+.section__list-element--first,
+.section__list-element--second,
+.section__list-element--third,
+.section__list-element--fought,
+.section__list-element--fifth,
+.section__list-element--sixth {
+  display: flex;
+  align-items: center;
+  padding: 8px 9.3px 8px 16.54px;
+  color: #7E7E82;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+
+}
+
+.section__list-element--first {
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+  background-color: #ffffff;
+  
+  ;
+}
+
+
+.article__text--first,
+.article__text--second,
+.article__text--third {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+margin: 24px 16px 16px 16px;
+}
+
+
+.article__text--second,
+.article__text--third {
+  display: none;
+}
+
+
+
+.article__button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.article__button-text {
+  color: inherit;
+}
+
+.article__img {
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+
+@media (width >=768px) {
+
+.section {
+  padding: 0;
+}
+.section__element {
+  gap: 20px;
+}
+.section__element--second,
+.section__element--third {
+display: none;
+}
+
+
+.section__list-element--first,
+.section__list-element--second,
+.section__list-element--third,
+.section__list-element--fought {
+  padding: 8px 16px;
+}
+
+
+
+  .decor-4 {
+    visibility: hidden;
+  }
+
+
+.article__text--second{
+  display: block;
+  margin-bottom: 10px ;
+}
+.article {
+  display: flex;
+  gap: 48px ;
+}
+
+  .article__img {
+    border-radius: 4px;
+    
+    min-width: 360px;
+    min-height: 208px;
+    margin-right: 25px;
+  }
+
+  .section__list {
+
+    margin-left: 24px;
+margin-bottom: 8px;
+  }
+
+  .article__text--first,
+  .article__text--second {
+    margin-left: 24px;
+    max-width: 312px;
+   
+  }
+
+  .article__button {
+    margin-left: 25px;
+    
+  }
+
+  .article__text--second {
+    visibility: visible;
+  }
+.decor-3 {
+  background: linear-gradient(to right, #7e7e82, #f8f8f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.section__element {
+  gap: 20px;
+}
+}
+
+@media (width >=1120px) {
+
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
+.section__element {
+  margin-top: 42px;
+  gap: 30px;
+}
+.section__element--second {
+  margin-left: auto;
+}
+.section__element--third {
+  margin-right: 32px;
+}
+.section__element--second,
+.section__element--third {
+display: flex;
+gap: 8px;
+  align-items: center;
+  margin-top: 42px;
+  
+}
+.section__list {
+
+    margin-left: 32px;
+margin-bottom: 8px;
+  }
+  
+  .article__text--third {
+    display:  inline;
+   
+  }
+
+   .article__text--first,
+  .article__text--second,
+  .article__text--third {
+    margin-left: 32px;
+    min-width: 490px;
+   
+  }
+
+  .article__img {
+    min-width: 531.35px;
+    min-height: 307px;
+   
+}
+.article__button {
+    margin-left: 32px;
+    
+  }
+
+.section__list-element--first,
+.section__list-element--second,
+.section__list-element--third,
+.section__list-element--fought,
+.section__list-element--fifth,
+.section__list-element--sixth {
+  padding: 8.63px 22px 7.37px 22px;
+
+}
+.article__text--first {
+  margin-top: 4px;
+}
+
+
+.article__text--second {
+  
+  margin-bottom: 13.78px ;
+}
+
+.article__text--third {
+
+margin-left: 0;
+
+
+}
+
+.article__img {
+  margin-top: 0;
+  margin-bottom: 49px;
+  padding-right: 28px;
+}
+
+}
